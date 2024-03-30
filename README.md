@@ -13,7 +13,7 @@ Check code coverage
 ----------------
 
     $ rebar3 cover --verbose 
-
+```console
 ===> Verifying dependencies...
 ===> Analyzing applications...
 ===> Compiling gilded_rose
@@ -29,4 +29,7 @@ Check code coverage
   |------------------------|------------|
   |                 total  |       74%  |
 
-Line-by-line coverage report available at /_build/test/cover/index.html
+  coverage calculated from:
+    GildedRoseErlangKataSolution/_build/test/cover/eunit.coverdata
+  cover summary written to: GildedRoseErlangKataSolution/_build/test/cover/index.html
+  ```
